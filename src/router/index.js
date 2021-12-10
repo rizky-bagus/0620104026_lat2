@@ -29,6 +29,11 @@ const routes = [
     path: '/hal-3',
     name: 'Hal3',
     component: () => import('../views/Hal3.vue')
+  },
+  {
+    path: '/hal-4',
+    name: 'Hal4',
+    component: () => import('../views/Hal4.vue')
   }
 ]
 
