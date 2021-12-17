@@ -34,6 +34,13 @@ const routes = [
     path: '/hal-4',
     name: 'Hal4',
     component: () => import('../views/Hal4.vue')
+  },
+
+  // Latihan Vuex
+  {
+    path: '/hal-5',
+    name: 'Hal5',
+    component: () => import('../views/Hal5.vue')
   }
 ]
 
